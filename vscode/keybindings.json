@@ -1,0 +1,31 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+alt+t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "make",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+q",
+        "command": "workbench.action.focusPanel",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+w",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.navigateEditorGroups",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    }
+]
