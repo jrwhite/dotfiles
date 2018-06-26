@@ -1,13 +1,12 @@
+
 {
     "git.confirmSync": false,
     "window.zoomLevel": 0,
-    "editor.fontFamily": "'Hack'",
     "workbench.statusBar.visible": true,
-    "python.linting.enabledWithoutWorkspace": false,
     "java.errors.incompleteClasspath.severity": "ignore",
-    "vim.disableAnnoyingNeovimMessage": true,
     "vim.visualstar": true,
     "vim.easymotion": true,
+    "vim.sneak": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
@@ -18,7 +17,7 @@
             "after": ["<Esc>"]
         }
     ],
-    "vim.otherModesKeyBindingsNonRecursive": [
+    "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["<leader>","d"],
             "after": ["d", "d"]
@@ -63,5 +62,6 @@
         "suppressNoRepositoryWarning": false,
         "suppressResultsExplorerNotice": false,
         "suppressShowKeyBindingsNotice": true
-    }
+    },
+    "workbench.colorTheme": "Red"
 }
